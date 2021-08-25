@@ -1,3 +1,7 @@
+// Original code from spinner1 is pretty compact already, so
+// I'll just copy and paste the whole thing. We'll consider
+// refactoring it in the future!
+
 const spinorama1 = ['\r|   ', '\r/   ', '\r-   ', '\r\\   ', '\r|   ', '\r/   ', '\r-   ', '\r\\   ', '\r|   ', '\r/   ', '\r-   ', '\r\\   ', '\r|   ', '\r|   ', '\r|   ', '\r|   ', '\r|   ', '\r\\   ', '\r-   ', '\r/   ', '\r|   ', '\r\\   ', '\r-   ', '\r/   ', '\r|   ', '\r\\   ', '\r-   ', '\r/   ', '\r|   '];
 const spinorama2 = ['\r|   ', '\r /   ', '\r   -   ', '\r    \\   ', '\r     |   ', '\r      /   ', '\r       -   ', '\r        \\   ', '\r         |   ', '\r          /   ', '\r           -   ', '\r            \\   ', '\r             |   ', '\r             |   ', '\r             |   ', '\r             |   ', '\r             |   ', '\r            \\   ', '\r           -   ', '\r          /   ', '\r         |   ', '\r        \\   ', '\r       -   ', '\r      /   ', '\r     |   ', '\r    \\   ', '\r   -   ', '\r  /   ', '\r |   ', '\r|   '];
 let counter = 0;
